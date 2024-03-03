@@ -10,3 +10,5 @@ commonLabels:
 
 resources:
 - ../../../apps/mja-ambulance-ufe
+components:
+ - ../../../components/version-developers
