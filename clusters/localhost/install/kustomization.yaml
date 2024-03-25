@@ -10,5 +10,11 @@ commonLabels:
 
 resources:
 - ../../../apps/mja-ambulance-ufe
+ - ../../../apps/mja-ambulance-webapi
+
 components:
  - ../../../components/version-developers
+ - https://github.com/javorkam/ambulance-webapi//deployments/kustomize/components/mongodb
+
+patches:
+ - path: patches/ambulance-webapi.service.yaml
