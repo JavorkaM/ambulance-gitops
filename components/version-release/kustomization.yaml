@@ -8,6 +8,7 @@ images:
   newName: javorkam/ambulance-wl-webapi
   newTag: 1.1.1
 
+
 replacements:
  - targets:
    - select:
