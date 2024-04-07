@@ -9,8 +9,10 @@ commonLabels:
   app.kubernetes.io/part-of: wac-hospital
 
 resources:
-- ../../../apps/mja-ambulance-ufe
+ - ../../../apps/mja-ambulance-ufe
  - ../../../apps/mja-ambulance-webapi
+ - ../../../apps/mongo-express
+
 
 components:
  - ../../../components/version-developers
