@@ -19,4 +19,5 @@ components:
  - https://github.com/javorkam/ambulance-webapi//deployments/kustomize/components/mongodb
 
 patches:
- - path: patches/ambulance-webapi.service.yaml
+  - path: patches/ambulance-webapi.service.yaml
+  - path: patches/mongodb-auth.secret.yaml
