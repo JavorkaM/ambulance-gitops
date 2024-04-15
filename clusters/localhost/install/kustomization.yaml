@@ -12,6 +12,7 @@ resources:
  - ../../../apps/mja-ambulance-ufe
  - ../../../apps/mja-ambulance-webapi
  - ../../../apps/mongo-express
+ - ../../../apps/http-echo
 
 
 components:
