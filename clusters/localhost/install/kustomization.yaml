@@ -13,6 +13,7 @@ resources:
  - ../../../apps/mja-ambulance-webapi
  - ../../../apps/mongo-express
  - ../../../apps/http-echo
+  - ../../../apps/observability-webc
 
 
 components:
